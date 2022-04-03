@@ -9,6 +9,8 @@ public class Pessoa {
         System.out.println(this.idade);
     }
 
+    //Acoplamento
+
     public void setNome(String nome){
         this.nome = nome;
     }
