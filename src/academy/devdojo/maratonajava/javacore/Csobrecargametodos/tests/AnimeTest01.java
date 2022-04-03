@@ -6,9 +6,8 @@ public class AnimeTest01 {
     public static void main(String[] args) {
         Anime anime = new Anime();
 
-        anime.setNome("Naruto");
-        anime.setTipo("Shipudden");
-        anime.setEpisodios(20);
+        anime.init("Death Note", "Suspense", 23);
+        anime.init("Death note", "suspense", 22, "Anime");
 
         anime.imprime();
     }
