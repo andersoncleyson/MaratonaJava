@@ -11,7 +11,5 @@ public class AnimeTest01 {
 
         anime.imprime();
 
-        Anime anime2 = new Anime();
-        anime2.imprime();
     }
 }
