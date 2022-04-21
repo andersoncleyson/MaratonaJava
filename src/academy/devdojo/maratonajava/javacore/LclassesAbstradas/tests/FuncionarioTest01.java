@@ -1,7 +1,6 @@
 package academy.devdojo.maratonajava.javacore.LclassesAbstradas.tests;
 
 import academy.devdojo.maratonajava.javacore.LclassesAbstradas.dominio.Desenvolvedor;
-import academy.devdojo.maratonajava.javacore.LclassesAbstradas.dominio.Funcionario;
 import academy.devdojo.maratonajava.javacore.LclassesAbstradas.dominio.Gerente;
 
 public class FuncionarioTest01 {
@@ -13,5 +12,7 @@ public class FuncionarioTest01 {
 
         System.out.println(gerente);
         System.out.println(desenvolvedor);
+
+        desenvolvedor.imprime();
     }
 }
